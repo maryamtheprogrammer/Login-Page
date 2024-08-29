@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(bg.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    border: 3px solid #fff;
+    padding: 45px;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(20px);
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 1em; 
+}
+
+.input {
+    margin-top: 1em;
+}
+
+.input input {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 8px;
+    width: 100%; 
+    margin: 5px 0; 
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: none;
+    color: #fff;
+}
+
+.input input::placeholder {
+    color: #fff;
+}
+
+.rem-for {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 1em; 
+}
+
+a {
+    font-size: 14px;
+    color: #fff; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff; 
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em; 
+}
+
+.btn button:hover {
+    background-color: #fffefe; 
+}
